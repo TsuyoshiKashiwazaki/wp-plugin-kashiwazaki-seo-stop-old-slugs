@@ -136,6 +136,9 @@ GPL-2.0-or-later
 ---
 
 <div align="center">
-**🔍 Keywords**: WordPress, SEO, スラッグ管理, リダイレクト制御, URL管理, 旧スラッグ, パーマリンク  
+
+**🔍 Keywords**: WordPress, SEO, スラッグ管理, リダイレクト制御, URL管理, 旧スラッグ, パーマリンク
+
 Made with ❤️ by [Tsuyoshi Kashiwazaki](https://github.com/TsuyoshiKashiwazaki)
+
 </div>

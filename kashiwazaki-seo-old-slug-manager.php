@@ -19,3 +19,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 // ファイルを読み込み
 require_once plugin_dir_path( __FILE__ ) . 'includes/frontend-hooks.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/admin-page.php';
+
+/**
+ * プラグイン一覧ページに設定リンクを追加
+ */
+function kswz_add_settings_link( $links ) {
+    $settings_link = '<a href="' . admin_url( 'admin.php?page=kswz-old-slug-manager' ) . '">' . __( '設定' ) . '</a>';
+    array_unshift( $links, $settings_link );
+    return $links;
+}
+add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'kswz_add_settings_link' );
