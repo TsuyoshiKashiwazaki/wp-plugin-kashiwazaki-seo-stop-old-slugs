@@ -44,3 +44,11 @@ desktop.ini
 # Development
 /zip/
 VERSION_HISTORY.md
+
+# Claude Code
+.claude/
+.mcp.json
+.playwright-mcp/
+
+# Windows Zone.Identifier files
+*:Zone.Identifier

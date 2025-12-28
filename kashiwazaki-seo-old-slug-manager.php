@@ -3,7 +3,7 @@
 Plugin Name: Kashiwazaki SEO Old Slug Manager
 Plugin URI: https://www.tsuyoshikashiwazaki.jp
 Description: 管理画面で旧スラッグの編集・削除、現在のスラッグ編集、および指定スラッグのリダイレクト停止を一元管理するプラグインです。
-Version: 1.0.0
+Version: 1.0.1
 Author: 柏崎剛 (Tsuyoshi Kashiwazaki)
 Author URI: https://www.tsuyoshikashiwazaki.jp/profile/
 Organization: SEO対策研究室

@@ -3,7 +3,7 @@ Contributors: Tsuyoshi Kashiwazaki
 Tags: seo, redirect, 301, slug, permalink, manager
 Requires at least: 5.0
 Tested up to: 6.5
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,14 @@ Editing a "Current Slug" changes the post's actual permalink (`post_name`). When
 1. The main management screen showing the list of old and current slugs with editing, deletion, and redirect-disabling options.
 
 == Changelog ==
+
+= 1.0.1 =
+*   Improved: Transfer URL editing now changes the binding target post.
+*   Added: HTTP status check feature (displays 200/3xx/4xx).
+*   Changed: Status badge colors (301 Redirect = yellow, Transfer Stopped = gray).
+*   Changed: New slug creation form now uses slug input instead of post ID.
+*   Improved: README.md and help tab documentation.
+*   Added: LICENSE file (GPL-2.0).
 
 = 1.0.0 =
 *   Initial release.
